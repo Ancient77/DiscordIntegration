@@ -12,8 +12,8 @@ A small [Lambda](https://github.com/lambda-client/lambda) plugin to combine the 
 5. Put the file in your `.minecraft/lambda/plugins` folder
 6. Download and Start the Node.js Discord Bot from here [(download)](https://github.com/Ancient77/DiscordIntegrationBot)
 6. Start Minecraft 
-7. Set the DiscordWebhook with /discord setwebhook <webhook>
-8. Set the IP to your webserver with /discord setip <ip>
+7. Set the DiscordWebhook with ;discord setwebhook <webhook>
+8. Set the IP to your webserver with ;discord setip <ip>
 
 
 
