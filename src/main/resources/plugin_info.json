@@ -1,0 +1,10 @@
+{
+  "name": "DiscordIntegration",
+  "version": "1.0",
+  "authors": [
+    "Ancient77"
+  ],
+  "description": "Minecraft Chat Integration with Discord",
+  "main_class": "com.lambda.DiscordIntegrationPlugin",
+  "min_api_version": "3.1"
+}
