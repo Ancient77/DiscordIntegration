@@ -6,12 +6,10 @@ import com.lambda.client.module.Category
 import com.lambda.client.plugin.api.PluginModule
 import com.lambda.client.util.text.MessageSendHelper
 import com.lambda.client.util.threads.defaultScope
-import com.lambda.client.util.threads.safeListener
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import net.minecraft.client.Minecraft
 import net.minecraft.network.play.client.CPacketChatMessage
-import net.minecraftforge.fml.common.gameevent.TickEvent
 import org.apache.commons.io.IOUtils
 
 var messages = mutableListOf<String>()
@@ -86,8 +84,6 @@ object DiscordIntegrationModule :
                     it.cancel()
                 }
             }
-        }
-        safeListener<TickEvent.ClientTickEvent> {
         }
     }
 }
